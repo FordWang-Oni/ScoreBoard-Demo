@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ScoreBoard-Demo_Tests' do
+  pod 'ScoreBoard-Demo', :path => '../'
+  
+  
+end
