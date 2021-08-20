@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A7C6B6908077D8FBAECF594D4E453B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD38754D2339A51A3BAEA4BE655055E3 /* ReplaceMe.swift */; };
+		18F98136F285C11C7C013831A2F1F7E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		61A32028FF0BDA6BDA3093D2C6C666DD /* Pods-ScoreBoard-Demo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B224F6E8017F267E4B6C9A347D9AC23A /* Pods-ScoreBoard-Demo_Tests-dummy.m */; };
+		654D1B75EC0E8230078121022F9C467F /* ScoreBoard-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9CD9F16EE7A58492E88692FE453E99 /* ScoreBoard-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		959D99B3E7887B9BAED5A9FE7A4F18D7 /* Pods-ScoreBoard-Demo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA3787E7AF9E3A250E583E34042FC7B /* Pods-ScoreBoard-Demo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C120FEF0AF5118BDA073FB4B4DBC64FF /* ScoreBoard-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A5408E77CDE05531FEC4597A33B2A /* ScoreBoard-Demo-dummy.m */; };
+		E4369F19BF3DC680A34ACFDC54DF2A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B97FDB72B62D3567A24650F04E030E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 297126972A705951FFEA655B1EEDFE7F;
+			remoteInfo = "ScoreBoard-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011DD5C71B4BD7A9DB172D887595FF7A /* Pods-ScoreBoard-Demo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScoreBoard-Demo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		07EC6D8753799F2B631F4AD49B998D53 /* Pods-ScoreBoard-Demo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ScoreBoard-Demo_Tests.modulemap"; sourceTree = "<group>"; };
+		0EA3787E7AF9E3A250E583E34042FC7B /* Pods-ScoreBoard-Demo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ScoreBoard-Demo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1A9CD9F16EE7A58492E88692FE453E99 /* ScoreBoard-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoreBoard-Demo-umbrella.h"; sourceTree = "<group>"; };
+		47DF7DBC8BED12064C2E999B7545BE60 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FC7C85AD245F8D25EC44E70FD6BEA95 /* Pods-ScoreBoard-Demo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ScoreBoard-Demo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		638E0281159EC7C3819CBEF70AD3F407 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		715A5408E77CDE05531FEC4597A33B2A /* ScoreBoard-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScoreBoard-Demo-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7526E9061678CD0EA59854AE3E16D30A /* ScoreBoard-Demo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "ScoreBoard-Demo.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7DA4E5BEAA4B7ABE0A62C34FFD4912F0 /* Pods-ScoreBoard-Demo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScoreBoard-Demo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		806C279F472CDF88C1D7E89D6DE983E4 /* ScoreBoard-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ScoreBoard-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		8E042FA7641A81E3A6C87BC63F2AD6B1 /* ScoreBoard-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ScoreBoard-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		94A0930C9EF7364B0625AA101ED4E145 /* ScoreBoard-Demo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScoreBoard-Demo-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE2E7AC6124629DF959889109566A94C /* Pods-ScoreBoard-Demo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ScoreBoard-Demo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B224F6E8017F267E4B6C9A347D9AC23A /* Pods-ScoreBoard-Demo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ScoreBoard-Demo_Tests-dummy.m"; sourceTree = "<group>"; };
+		B54DEF8C85445DE4C3A59844954B5889 /* Pods-ScoreBoard-Demo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ScoreBoard-Demo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B65EAA1AE1FEE298C3F467E448F397C9 /* Pods_ScoreBoard_Demo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ScoreBoard_Demo_Tests.framework; path = "Pods-ScoreBoard-Demo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD81E730181E7319C16F0778D71E446A /* ScoreBoard-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScoreBoard-Demo-Info.plist"; sourceTree = "<group>"; };
+		C5BFCE7B1D482F1EA760BB740702DBB5 /* ScoreBoard_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScoreBoard_Demo.framework; path = "ScoreBoard-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D809DE815AE2E30D8AE7935D95CD12A7 /* ScoreBoard-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ScoreBoard-Demo.modulemap"; sourceTree = "<group>"; };
+		DD38754D2339A51A3BAEA4BE655055E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = "ScoreBoard-Demo/Classes/ReplaceMe.swift"; sourceTree = "<group>"; };
+		F68598B6199E1296CD83FF9B33155F95 /* Pods-ScoreBoard-Demo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ScoreBoard-Demo_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46351424A281C2831137974C2E43A796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4369F19BF3DC680A34ACFDC54DF2A6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2CD6DE300DB6F8B2B64BB1A5C499F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F98136F285C11C7C013831A2F1F7E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37DDB7FFF411CB2F130830FB1C7C42D5 /* Pods-ScoreBoard-Demo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07EC6D8753799F2B631F4AD49B998D53 /* Pods-ScoreBoard-Demo_Tests.modulemap */,
+				AE2E7AC6124629DF959889109566A94C /* Pods-ScoreBoard-Demo_Tests-acknowledgements.markdown */,
+				011DD5C71B4BD7A9DB172D887595FF7A /* Pods-ScoreBoard-Demo_Tests-acknowledgements.plist */,
+				B224F6E8017F267E4B6C9A347D9AC23A /* Pods-ScoreBoard-Demo_Tests-dummy.m */,
+				4FC7C85AD245F8D25EC44E70FD6BEA95 /* Pods-ScoreBoard-Demo_Tests-frameworks.sh */,
+				F68598B6199E1296CD83FF9B33155F95 /* Pods-ScoreBoard-Demo_Tests-Info.plist */,
+				0EA3787E7AF9E3A250E583E34042FC7B /* Pods-ScoreBoard-Demo_Tests-umbrella.h */,
+				7DA4E5BEAA4B7ABE0A62C34FFD4912F0 /* Pods-ScoreBoard-Demo_Tests.debug.xcconfig */,
+				B54DEF8C85445DE4C3A59844954B5889 /* Pods-ScoreBoard-Demo_Tests.release.xcconfig */,
+			);
+			name = "Pods-ScoreBoard-Demo_Tests";
+			path = "Target Support Files/Pods-ScoreBoard-Demo_Tests";
+			sourceTree = "<group>";
+		};
+		4711B1C3A79DF8B93F391460A9FFEF25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D809DE815AE2E30D8AE7935D95CD12A7 /* ScoreBoard-Demo.modulemap */,
+				715A5408E77CDE05531FEC4597A33B2A /* ScoreBoard-Demo-dummy.m */,
+				BD81E730181E7319C16F0778D71E446A /* ScoreBoard-Demo-Info.plist */,
+				94A0930C9EF7364B0625AA101ED4E145 /* ScoreBoard-Demo-prefix.pch */,
+				1A9CD9F16EE7A58492E88692FE453E99 /* ScoreBoard-Demo-umbrella.h */,
+				8E042FA7641A81E3A6C87BC63F2AD6B1 /* ScoreBoard-Demo.debug.xcconfig */,
+				806C279F472CDF88C1D7E89D6DE983E4 /* ScoreBoard-Demo.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ScoreBoard-Demo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7344959F550058341A9DABE9D1E04F67 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1CF6767C6B43E6D2E069B64A85FDB2C /* ScoreBoard-Demo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8775441EC33980C141919AB7B64E84FF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37DDB7FFF411CB2F130830FB1C7C42D5 /* Pods-ScoreBoard-Demo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7344959F550058341A9DABE9D1E04F67 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D98C3C855E15DDD6293533FF7FC5130E /* Products */,
+				8775441EC33980C141919AB7B64E84FF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1CF6767C6B43E6D2E069B64A85FDB2C /* ScoreBoard-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DD38754D2339A51A3BAEA4BE655055E3 /* ReplaceMe.swift */,
+				F07FB1FE3D7E372DDDE7010187A7C728 /* Pod */,
+				4711B1C3A79DF8B93F391460A9FFEF25 /* Support Files */,
+			);
+			name = "ScoreBoard-Demo";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D98C3C855E15DDD6293533FF7FC5130E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65EAA1AE1FEE298C3F467E448F397C9 /* Pods_ScoreBoard_Demo_Tests.framework */,
+				C5BFCE7B1D482F1EA760BB740702DBB5 /* ScoreBoard_Demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07FB1FE3D7E372DDDE7010187A7C728 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47DF7DBC8BED12064C2E999B7545BE60 /* LICENSE */,
+				638E0281159EC7C3819CBEF70AD3F407 /* README.md */,
+				7526E9061678CD0EA59854AE3E16D30A /* ScoreBoard-Demo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		840BFD3E2234D3A297A54C03F251C149 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654D1B75EC0E8230078121022F9C467F /* ScoreBoard-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06F507649DD6B0CCCE6B1F168D4A3EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959D99B3E7887B9BAED5A9FE7A4F18D7 /* Pods-ScoreBoard-Demo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		297126972A705951FFEA655B1EEDFE7F /* ScoreBoard-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124CEDA20BC86CCEF337B2AB76D378B1 /* Build configuration list for PBXNativeTarget "ScoreBoard-Demo" */;
+			buildPhases = (
+				840BFD3E2234D3A297A54C03F251C149 /* Headers */,
+				D123AA62A312F86A529525B4D0B3CD22 /* Sources */,
+				46351424A281C2831137974C2E43A796 /* Frameworks */,
+				14C327FFAE0E7462F3BDDDE260C2764C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ScoreBoard-Demo";
+			productName = "ScoreBoard-Demo";
+			productReference = C5BFCE7B1D482F1EA760BB740702DBB5 /* ScoreBoard_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE3482F7236F83EB22CB767D2B9FC28F /* Pods-ScoreBoard-Demo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39ACA1E8E39B0B1EF7DE553A4B93AADF /* Build configuration list for PBXNativeTarget "Pods-ScoreBoard-Demo_Tests" */;
+			buildPhases = (
+				B06F507649DD6B0CCCE6B1F168D4A3EB /* Headers */,
+				0F1AAF67398F56F21E46E4124B4D79D8 /* Sources */,
+				F2CD6DE300DB6F8B2B64BB1A5C499F8A /* Frameworks */,
+				3238179ADF02D91C26C81C7AB64C177B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0FC139044E1CDFE9F420DCF710269FD /* PBXTargetDependency */,
+			);
+			name = "Pods-ScoreBoard-Demo_Tests";
+			productName = "Pods-ScoreBoard-Demo_Tests";
+			productReference = B65EAA1AE1FEE298C3F467E448F397C9 /* Pods_ScoreBoard_Demo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D98C3C855E15DDD6293533FF7FC5130E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE3482F7236F83EB22CB767D2B9FC28F /* Pods-ScoreBoard-Demo_Tests */,
+				297126972A705951FFEA655B1EEDFE7F /* ScoreBoard-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C327FFAE0E7462F3BDDDE260C2764C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3238179ADF02D91C26C81C7AB64C177B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1AAF67398F56F21E46E4124B4D79D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A32028FF0BDA6BDA3093D2C6C666DD /* Pods-ScoreBoard-Demo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D123AA62A312F86A529525B4D0B3CD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A7C6B6908077D8FBAECF594D4E453B /* ReplaceMe.swift in Sources */,
+				C120FEF0AF5118BDA073FB4B4DBC64FF /* ScoreBoard-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0FC139044E1CDFE9F420DCF710269FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ScoreBoard-Demo";
+			target = 297126972A705951FFEA655B1EEDFE7F /* ScoreBoard-Demo */;
+			targetProxy = 7B97FDB72B62D3567A24650F04E030E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4E0E401219A9C76DB7BE03C691310099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA4E5BEAA4B7ABE0A62C34FFD4912F0 /* Pods-ScoreBoard-Demo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScoreBoard-Demo_Tests/Pods-ScoreBoard-Demo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScoreBoard-Demo_Tests/Pods-ScoreBoard-Demo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		645D2B4318EED0D840DDE1D8171BD9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806C279F472CDF88C1D7E89D6DE983E4 /* ScoreBoard-Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo.modulemap";
+				PRODUCT_MODULE_NAME = ScoreBoard_Demo;
+				PRODUCT_NAME = ScoreBoard_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4590037300B8CB2C2B00009EDE9F993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54DEF8C85445DE4C3A59844954B5889 /* Pods-ScoreBoard-Demo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ScoreBoard-Demo_Tests/Pods-ScoreBoard-Demo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ScoreBoard-Demo_Tests/Pods-ScoreBoard-Demo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE72D8C07292503A676D755C2F65D046 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E042FA7641A81E3A6C87BC63F2AD6B1 /* ScoreBoard-Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ScoreBoard-Demo/ScoreBoard-Demo.modulemap";
+				PRODUCT_MODULE_NAME = ScoreBoard_Demo;
+				PRODUCT_NAME = ScoreBoard_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124CEDA20BC86CCEF337B2AB76D378B1 /* Build configuration list for PBXNativeTarget "ScoreBoard-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE72D8C07292503A676D755C2F65D046 /* Debug */,
+				645D2B4318EED0D840DDE1D8171BD9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39ACA1E8E39B0B1EF7DE553A4B93AADF /* Build configuration list for PBXNativeTarget "Pods-ScoreBoard-Demo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0E401219A9C76DB7BE03C691310099 /* Debug */,
+				B4590037300B8CB2C2B00009EDE9F993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

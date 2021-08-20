@@ -1,0 +1,22 @@
+{
+  "name": "ScoreBoard-Demo",
+  "version": "0.1.0",
+  "summary": "A short description of ScoreBoard-Demo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ford-wang/ScoreBoard-Demo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ford-wang": "Enjoy coding"
+  },
+  "source": {
+    "git": "https://github.com/ford-wang/ScoreBoard-Demo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ScoreBoard-Demo/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ScoreBoard-Demo (0.1.0)
+
+DEPENDENCIES:
+  - ScoreBoard-Demo (from `../`)
+
+EXTERNAL SOURCES:
+  ScoreBoard-Demo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ScoreBoard-Demo: d98fd4d6d93ff78044f2eccafaec305aaf83f4ba
+
+PODFILE CHECKSUM: b85223d871a1abca3ec407dc92c49b3e2511b06d
+
+COCOAPODS: 1.10.1

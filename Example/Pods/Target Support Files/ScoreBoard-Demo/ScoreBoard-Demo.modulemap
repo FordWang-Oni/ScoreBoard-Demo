@@ -1,0 +1,6 @@
+framework module ScoreBoard_Demo {
+  umbrella header "ScoreBoard-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
